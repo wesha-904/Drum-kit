@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    background-image:url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+
+
+.container{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys{
+    height: 60vmin;
+    width: 80vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:6vmin; 
+
+}
+
+.key{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border:none;
+    text-align: center;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5vmin;
+    background-image: linear-gradient(to bottom right,#A0522D, #c07d5e,rgb(198, 50, 50),#ec7263);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:all 0.3s;
+}
+
+
+kpd {
+    margin-top: 10%;
+    color:  #5d2d17;
+    font-weight: 500;
+    text-shadow:1px 1px #4a2c2c;
+    font-size: 5vmin;
+}
+
+span{
+    color:#360e0e;
+    font-weight: 500;
+    text-shadow:2px 1px #febe7e;
+    margin-bottom:10%;
+}
+
+.click-btn{
+    transform:scale(1.06); 
+    box-shadow: 0 0 0 2px #C04000;  /*border using box shadow so it doesn't affect div container size on transition*/
+};
+
+
+
+
